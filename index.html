@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model subskrypcyjny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Model subskrypcyjny</h1>
+
+    <div class="section">
+        <h2>1. Obecna sytuacja</h2>
+        <ul>
+            <li>Model freemium</li>
+            <li>Treści premium z tygodnika drukowanego za paywallem</li>
+            <li>Treści agencyjne i od autorów zewnętrznych - otwarte</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>2. Porównanie modeli subskrypcyjnych</h2>
+
+        <div class="subsection">
+            <h3>2.1 Freemium (obecny model)</h3>
+            <h4>Zalety:</h4>
+            <ul>
+                <li>Jasny podział między treściami premium a darmowymi</li>
+                <li>Zachęca do subskrypcji dla dostępu do pełnej zawartości tygodnika</li>
+                <li>Utrzymuje otwarty dostęp do treści agencyjnych, co może przyciągać nowych czytelników</li>
+            </ul>
+            <h4>Wady:</h4>
+            <ul>
+                <li>Może ograniczać zasięg treści premium</li>
+                <li>Nie monetyzuje okazjonalnych czytelników zainteresowanych pojedynczymi artykułami premium</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>2.2 Metered Paywall</h3>
+            <h4>Zalety:</h4>
+            <ul>
+                <li>Pozwala czytelnikom na "próbkowanie" treści premium przed subskrypcją</li>
+                <li>Może zwiększyć zaangażowanie czytelników i zachęcić do regularnych wizyt</li>
+                <li>Potencjalnie zwiększy konwersję na subskrypcje</li>
+            </ul>
+            <h4>Wady:</h4>
+            <ul>
+                <li>Może zmniejszyć przychody od stałych czytelników, którzy obecnie płacą za pełny dostęp</li>
+                <li>Wymaga precyzyjnego ustalenia limitu darmowych artykułów</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>2.3 Mikropłatności</h3>
+            <h4>Zalety:</h4>
+            <ul>
+                <li>Umożliwia monetyzację okazjonalnych czytelników</li>
+                <li>Elastyczność dla czytelników - płacą tylko za to, co chcą przeczytać</li>
+                <li>Może zachęcić do wypróbowania treści premium bez pełnej subskrypcji</li>
+            </ul>
+            <h4>Wady:</h4>
+            <ul>
+                <li>Może zmniejszyć motywację do pełnej subskrypcji</li>
+                <li>Wymaga wdrożenia systemu płatności za pojedyncze artykuły</li>
+                <li>Potencjalnie skomplikowane dla użytkowników</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Model kredytowy - nowe możliwości</h2>
+
+        <div class="subsection">
+            <h3>3.1 Jak działa?</h3>
+            <ul>
+                <li>Użytkownicy kupują lub otrzymują "kredyty"</li>
+                <li>Artykuły premium mają cenę w kredytach</li>
+                <li>Kredyty można uzyskać przez:
+                    <ul>
+                        <li>Zakup pakietów kredytów (np. 10, 50, 100 kredytów)</li>
+                        <li>Część subskrypcji (np. 20 kredytów miesięcznie z podstawową subskrypcją)</li>
+                        <li>Bonusy za aktywność (np. za komentarze, udostępnienia artykułów)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>3.2 Zalety modelu kredytowego</h3>
+            <ul>
+                <li>Większa elastyczność dla użytkowników</li>
+                <li>Psychologicznie łatwiejszy do zaakceptowania niż ciągłe mikropłatności</li>
+                <li>Zachęca do większego zaangażowania</li>
+                <li>Możliwość tworzenia promocji i programów lojalnościowych</li>
+                <li>Użytkownicy mogą "oszczędzać" kredyty na interesujące ich artykuły</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>3.3 Potencjalne wyzwania</h3>
+            <ul>
+                <li>Konieczność edukacji użytkowników</li>
+                <li>Złożoność implementacji technicznej</li>
+                <li>Ustalenie odpowiednich "cen" w kredytach</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>3.4 Implementacja systemu kredytowego</h3>
+            <ul>
+                <li>Integracja z systemem zarządzania treścią (dodanie pola "cena w kredytach" do metadanych artykułów)</li>
+                <li>Stworzenie panelu użytkownika z sekcją "Moje kredyty"</li>
+                <li>Integracja z systemem płatności do obsługi zakupu kredytów</li>
+                <li>Implementacja mechanizmów promocyjnych (np. bonusowe kredyty za aktywność)</li>
+                <li>Rozwój systemu analityki do śledzenia wykorzystania kredytów</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Rekomendowany model hybrydowy</h2>
+
+        <div class="subsection">
+            <h3>4.1 Struktura modelu hybrydowego</h3>
+            <ol>
+                <li>Utrzymanie podstawowego podziału na treści premium (z tygodnika) i otwarte (agencyjne i od autorów zewnętrznych)</li>
+                <li>Wprowadzenie metered paywall dla treści premium:
+                    <ul>
+                        <li>Pozwolenie na bezpłatne przeczytanie ograniczonej liczby artykułów premium miesięcznie (np. 3-5)</li>
+                        <li>Po przekroczeniu limitu, wymaganie subskrypcji lub użycia kredytów</li>
+                    </ul>
+                </li>
+                <li>Dodanie systemu kredytowego:
+                    <ul>
+                        <li>Umożliwienie zakupu pojedynczych artykułów premium za kredyty po przekroczeniu miesięcznego limitu</li>
+                        <li>Ustalenie ceny w kredytach tak, aby zachęcała do pełnej subskrypcji przy częstszym czytaniu</li>
+                    </ul>
+                </li>
+                <li>Zaoferowanie różnych poziomów subskrypcji:
+                    <ul>
+                        <li>Podstawowa: dostęp do wszystkich treści online + miesięczna pula kredytów</li>
+                        <li>Premium: dostęp online + wersja drukowana + dodatkowe korzyści (np. ekskluzywne newslettery, dostęp do archiwum, większa pula kredytów)</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="subsection">
+            <h3>4.2 Uzasadnienie</h3>
+            <ol>
+                <li>Zachowanie wartości treści premium przy jednoczesnym zwiększeniu ich zasięgu</li>
+                <li>Umożliwienie czytelnikom "próbkowania" treści premium, co może zwiększyć konwersję na subskrypcje</li>
+                <li>Monetyzacja okazjonalnych czytelników poprzez system kredytowy</li>
+                <li>Elastyczność dla różnych grup czytelników - od okazjonalnych po stałych subskrybentów</li>
+                <li>Potencjał do zwiększenia ogólnych przychodów poprzez dotarcie do szerszej grupy odbiorców</li>
+                <li>Zwiększenie zaangażowania czytelników poprzez system kredytowy i bonusy za aktywność</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Korzyści z wdrożenia modelu hybrydowego</h2>
+        <ul>
+            <li>Zwiększenie zasięgu treści premium</li>
+            <li>Monetyzacja różnych grup czytelników</li>
+            <li>Potencjał do zwiększenia ogólnych przychodów</li>
+            <li>Większa elastyczność w zarządzaniu dostępem do treści</li>
+            <li>Możliwość personalizacji oferty</li>
+            <li>Budowanie lojalności czytelników poprzez system kredytowy</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>6. Następne kroki</h2>
+        <ol>
+            <li>Przeprowadzenie testów A/B różnych wariantów modelu:
+                <ul>
+                    <li>Testowanie różnych limitów artykułów w modelu metered</li>
+                    <li>Eksperymentowanie z różnymi cenami kredytów i artykułów</li>
+                </ul>
+            </li>
+            <li>Analiza zachowań użytkowników i optymalizacja oferty</li>
+            <li>Implementacja systemu kredytowego w obecnym CMS:
+                <ul>
+                    <li>Integracja z systemem zarządzania treścią</li>
+                    <li>Rozwój panelu użytkownika</li>
+                    <li>Integracja z systemem płatności</li>
+                </ul>
+            </li>
+            <li>Opracowanie strategii komunikacji zmian dla czytelników:
+                <ul>
+                    <li>Przygotowanie materiałów edukacyjnych o nowym systemie</li>
+                    <li>Planowanie kampanii informacyjnej</li>
+                </ul>
+            </li>
+            <li>Stopniowe wdrażanie nowego modelu:
+                <ul>
+                    <li>Rozpoczęcie od pilotażowego programu z wybraną grupą użytkowników</li>
+                    <li>Zbieranie feedbacku i iteracyjne udoskonalanie systemu</li>
+                </ul>
+            </li>
+            <li>Monitorowanie kluczowych wskaźników:
+                <ul>
+                    <li>Konwersja na subskrypcje</li>
+                    <li>Wykorzystanie kredytów</li>
+                    <li>Zaangażowanie użytkowników</li>
+                    <li>Przychody z różnych źródeł (subskrypcje, kredyty, reklamy)</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
+
